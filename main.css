@@ -1,0 +1,66 @@
+* {
+    font-family: 'Orator Std', sans-serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+header {
+    font-size: 24px;
+    padding: 16px 0;
+    background-color: #050218;
+    color: #fff;
+}
+
+header nav li {
+    font-size: 26px;
+    display: inline;
+    margin-left: 16px;
+}
+
+header nav li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1200px; /* largura */
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container {
+    display: flex;
+    align-items: center; /*alinhamento do "objeto"*/
+    justify-content /*afirmar/justificar o conteúdo*/: space-between/* espaço entre os objetos*/;
+}
+
+section {
+    padding: 24px 0;
+}
+
+section p {
+    font-size: 16px;
+}
+
+.about {
+    max-width: 1200px; /* largura */
+    width: 100%;
+    margin: 0 auto;
+}
+
+.about h2 {
+    margin-bottom: 16px;
+}
+
+.about img {
+    margin-bottom: 24px;
+}
+
+
+
+footer  {
+    color: #fff;
+    background-color: #050218;
+    padding: 16px 0;
+}
