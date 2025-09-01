@@ -36,6 +36,8 @@ header .container {
 }
 
 section {
+    background-color: #050218;
+    color: #ecf0f1;
     padding: 24px 0;
 }
 
@@ -58,9 +60,51 @@ section p {
 }
 
 
+#contact .container {
+    display: block;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none; /*redimensionar*/
+    height: 180px;
+}
 
 footer  {
     color: #fff;
     background-color: #050218;
     padding: 16px 0;
+}
+
+form button {
+    height: 60px;
+    background-color: #182C61;
+    color: #ecf0f1;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover { /* mudar a cor do botão quando passado o mouse encima*/
+    background-color: #3b5bb4;
+}
+
+input:focus, textarea:focus { /* area selecionada para digitar*/
+    outline-color: #182C61;
+}
+
+#contact h2 {
+    margin-bottom: 16px;
 }
